@@ -1,0 +1,38 @@
+.headerContainer {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    margin-top: 30px;
+}
+
+.headerButtons a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #5972a2;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 15px;
+}
+
+.headerButtons a:hover {
+    color: #88aff8;
+}
+
+.logo {
+    border-radius: 15%;
+}
+
+.headerButtons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.headerInfo a {
+    color: white;
+    border-top-left-radius: 10%;
+}
+
+
+
+

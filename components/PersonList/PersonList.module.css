@@ -1,0 +1,50 @@
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cardInfo {
+    display: grid;
+    position: relative;
+    justify-items: center;
+    grid-template-rows: 4fr 1fr 3fr;
+    background-image: url("./images/card-background.png");
+    padding: 20px; 
+    width: 350px;
+    height: 600px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0 2px 5px #ccc;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .cardTop {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .cardImage {
+    border-radius: 50%;
+    background-color: #dedfec6b;
+    padding: 10px; 
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+  }
+  
+  .characterImage {
+    border-radius: 50%;
+  }
+  
+  .cardBottom {
+    border-radius: 15px;
+    background-color: #ffffff61;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  
