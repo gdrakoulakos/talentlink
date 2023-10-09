@@ -39,7 +39,7 @@ export default function Home() {
           </a>
 
           <a
-            href="http://localhost:3000/about"
+            href="https://talentlink-pi.vercel.app/about"
             className={styles.card}
           >
             <h3>About</h3>
