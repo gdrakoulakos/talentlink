@@ -14,7 +14,7 @@ export default function Home() {
         <Header />
         <div className={styles.title}>
           <h1>Welcome to</h1>
-          <h1><a href="http://localhost:3000/">TalentLink!</a></h1>
+          <h1><a href="https://talentlink-ij39bmc8g-georges-projects-1635b778.vercel.app/">TalentLink!</a></h1>
         </div>
 
         <p className={styles.description}>
@@ -22,20 +22,18 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="http://localhost:3000/actors" className={styles.card}>
+          <a href="https://talentlink-ij39bmc8g-georges-projects-1635b778.vercel.app/actors" className={styles.card}>
             <h3>Find Your New Actor</h3>
             <p>Connecting you with top talents for success.</p>
           </a>
 
-          <a href="http://localhost:3000/directors" className={styles.card}>
+          <a href="https://talentlink-ij39bmc8g-georges-projects-1635b778.vercel.app/directors" className={styles.card}>
             <h3>Find Your New Casting Director</h3>
             <p>Unlocking your career potential with the perfect match.</p>
           </a>
 
           <a
-            href="http://localhost:3000/reviews"
-            className={styles.card}
-          >
+            href="https://talentlink-ij39bmc8g-georges-projects-1635b778.vercel.app/reviews" className={styles.card}>
             <h3>Customers' Reviews</h3>
             <p>Hear what our clients have said about us.</p>
           </a>
