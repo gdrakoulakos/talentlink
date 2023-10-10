@@ -42,7 +42,7 @@ export default function Home() {
             href="https://talentlink-pi.vercel.app/about"
             className={styles.card}
           >
-            <h3>About</h3>
+            <h3>About Us</h3>
             <p>Explore TalentLink to learn more about our values.</p>
           </a>
         </div>
