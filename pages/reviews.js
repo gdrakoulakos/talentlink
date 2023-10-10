@@ -16,9 +16,11 @@ function createCard (character) {
 
 function Reviews () {
     return (
-        <div className={styles.cardContainer}>
-            <h1 className="pageTitle">Reviews</h1>
-            {reviews.map(createCard)}
+        <div>
+        <h1 className="pageTitle">Reviews</h1>
+            <div className="cardContainer">
+                {reviews.map(createCard)}
+            </div>
         </div>
     )
 }
