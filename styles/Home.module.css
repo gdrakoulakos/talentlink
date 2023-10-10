@@ -10,16 +10,16 @@
   font-size: 140px;
   color: #4e6998;
   text-decoration: none;
-  text-shadow: 0 6px 8px #ccc;
+  text-shadow: 0px 0px 20px #fff;
 }
 
 
 .title {
-  color: white;
+  color:white;
   font-size: 35px;
   background-image: url("../public/images/headBackground.jpg");
   text-align: center;
-  text-shadow: 0 6px 18px #ccc;
+  text-shadow: 0px 0px 20px #707070;
 }
 
 

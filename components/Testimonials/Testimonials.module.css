@@ -1,0 +1,13 @@
+.card {
+    display: grid;
+    border-style: solid;
+    color: red;
+    height: 500px;
+    width: 600px;
+    margin: 20px;
+    justify-items: center;
+}
+
+
+
+
