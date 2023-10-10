@@ -4,8 +4,6 @@ import Footer from "../components/Footer"
 function Reviews () {
     return (
         <div>
-        <Header />
-        <div>
             <h1 className="pageTitle">Reviews</h1>
             <h3>Actors' Reviews:</h3>
             <p>Jennifer M.</p>
@@ -25,8 +23,6 @@ function Reviews () {
             <p>Sophia K.</p>
             <p>"Finding exceptional talent for my directorial debut was a daunting task until I stumbled upon TalentLink. The platform's extensive network of actors and intuitive interface made casting a breeze.<br/>
             Their commitment to fostering talent and diversity in the industry aligns perfectly with my vision as a director. TalentLink made my project a reality."</p>
-        </div>
-        <Footer />
         </div>
     )
 }
