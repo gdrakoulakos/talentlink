@@ -6,7 +6,7 @@ function Reviews () {
         <div>
         <Header />
         <div>
-            <h1>Reviews</h1>
+            <h1 className="pageTitle">Reviews</h1>
             <h3>Actors' Reviews:</h3>
             <p>Jennifer M.</p>
             <p>"TalentLink has been a game-changer for my acting career. The platform connected me with auditions and roles I would have never found otherwise.<br/>

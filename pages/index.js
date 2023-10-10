@@ -1,7 +1,5 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import Header from "../components/Header"
-import Footer from "../components/Footer"
 
 export default function Home() {
   return (
@@ -11,7 +9,6 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header />
         <div className={styles.title}>
           <h1>Welcome to</h1>
           <h1><a href="https://talentlink-pi.vercel.app/">TalentLink!</a></h1>
@@ -47,7 +44,6 @@ export default function Home() {
           </a>
         </div>
       </main>
-      <Footer />
     </div>
   );
 }
