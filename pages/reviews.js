@@ -1,12 +1,11 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-import styles from "../styles/Reviews.module.css"
 
 function Reviews () {
     return (
         <div>
         <Header />
-        <div className={styles.reviewsContainer}>
+        <div>
             <h1>Reviews</h1>
             <h3>Actors' Reviews:</h3>
             <p>Jennifer M.</p>

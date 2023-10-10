@@ -1,12 +1,11 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-import styles from "../styles/About.module.css"
 
 function About () {
     return (
         <div>
         <Header />
-            <div className={styles.aboutContainer}>
+            <div>
             <h1>About Us</h1>
             <h3>Introducing TalentLink: Your Gateway to Movie-Making Excellence!</h3>
             <p>
