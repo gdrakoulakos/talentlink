@@ -9,6 +9,7 @@
     border-radius: 10%;
     text-align: center;
     align-content: center;
+    box-shadow: 0 2px 15px 0px #cccccce6;
 }
 
 .cardImage {
@@ -16,6 +17,7 @@
     border-radius: 50%;
     height: 200px;
     width: 200px;
+    box-shadow: 0px 0px 6px 6px #ccc;
 }
 
 .cardButtom {
