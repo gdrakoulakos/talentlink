@@ -18,4 +18,10 @@ body {
 .cardContainer {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.actors-page .thisone {
+  
 }

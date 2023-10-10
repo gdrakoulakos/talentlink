@@ -25,7 +25,7 @@ function PersonList (props) {
         callAPI();
     }, []);
     return (
-        <div className={styles.cardsContainer}>
+        <div className="cardContainer">
             {characters.map ((character) => (
             <div className={styles.cardInfo} key={character.id}>
                 <div className={styles.cardImage}>
