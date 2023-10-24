@@ -6,7 +6,7 @@
     background-image: url("./images/card-background.png");
     padding: 20px; 
     width: 350px;
-    height: 600px;
+    height: 555px;
     text-align: center;
     border-radius: 15px;
     margin: 20px;
@@ -32,12 +32,23 @@
     border-radius: 50%;
   }
   
-  .cardBottom {
+  .cardBottomContainer {
+    display: flex;
     border-radius: 15px;
     background-color: #ffffff61;
     width: 100%;
     height: 100%;
+    text-align: left;
   }
+
+  .cardBottomContainer ul {
+    list-style-type: none
+  }
+
+  .cardBottomLeft {
+    font-weight: bold;
+  }
+
 
 
   
