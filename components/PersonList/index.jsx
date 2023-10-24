@@ -37,18 +37,18 @@ function PersonList (props) {
                 <div className={styles.cardBottomContainer}>
                     <div className={styles.cardBottomLeft}>
                     <ul>
-                        <li>Status:</li>
-                        <li>Species:</li>
-                        <li>Gender:</li>
-                        <li>Location:</li>
+                        <li>Status</li>
+                        <li>Species</li>
+                        <li>Gender</li>
+                        <li>Location</li>
                     </ul>
                     </div>
                     <div className={styles.cardBottomRight}>
                     <ul>
-                        <li>{character.status}</li>
-                        <li>{character.species}</li>
-                        <li>{character.gender}</li>
-                        <li>{character.location.name}</li>
+                        <li>: {character.status}</li>
+                        <li>: {character.species}</li>
+                        <li>: {character.gender}</li>
+                        <li>: {character.location.name}</li>
                     </ul>
                     </div>
                 </div>
