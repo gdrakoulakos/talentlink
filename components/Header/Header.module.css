@@ -17,6 +17,7 @@
 
 .logo {
     border-radius: 15%;
+    box-shadow: 2px 2px 3px 5px #cccccce6;
 }
 
 .headerButtons {
